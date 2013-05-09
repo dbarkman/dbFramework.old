@@ -9,24 +9,22 @@
 class Logger
 {
 	const DEBUG = 0x01;
-	const FATAL = 0x02;
-	const ERROR = 0x04;
-	const WARN = 0x08;
-	const INFO = 0x10;
+	const INFO = 0x02;
+	const WARN = 0x04;
+	const ERROR = 0x08;
+	const FATAL = 0x16;
 
-	public static $levels = array(1 => "DEBUG", 2 => "FATAL", 4 => "ERROR", 8 => "WARN", 16 => "INFO");
+	public static $levels = array(1 => "DEBUG", 2 => "INFO", 4 => "WARN", 8 => "ERROR", 16 => "FATAL");
 	private static $instance;
 
 	private $logPath = "";
 	private $logFile = "Framework.log";
 	private $logLevel = self::DEBUG;
 
-	//@todo For some reason the log method is being called without a file and we are getting a permissions error saying the directory cannot be opened for writing. We need to check and make sure a logFile is selected
-	public function __construct($level = null, $file = null)
+	public function __construct($level, $file)
 	{
-		$properties = new FrameworkProperties();
-		$this->logFile = $properties->getLogFile();
-		$this->logLevel = $properties->getLogLevel();
+		$this->logLevel = $level;
+		$this->logFile = $file;
 		$this->logPath = dirname(__FILE__) . "/../logs";
 	}
 
