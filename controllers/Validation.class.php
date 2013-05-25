@@ -46,6 +46,12 @@ class Validation
 		return implode("", preg_grep($pattern, str_split($input)));
 	}
 
+	protected function sanitizeFloat($input)
+	{
+		$pattern = '/[0-9.]/';
+		return implode("", preg_grep($pattern, str_split($input)));
+	}
+
 	protected function sanitizeText($input)
 	{
 		$pattern = "/[A-Za-z]/";
@@ -61,6 +67,12 @@ class Validation
 	protected function sanitizeName($input)
 	{
 		$pattern = "/[ A-Za-z.',-]/";
+		return implode("", preg_grep($pattern, str_split($input)));
+	}
+
+	protected function sanitizeMachineName($input)
+	{
+		$pattern = "/[ A-Za-z0-9.,-_]/";
 		return implode("", preg_grep($pattern, str_split($input)));
 	}
 
@@ -82,6 +94,12 @@ class Validation
 		return implode("", preg_grep($pattern, str_split($input)));
 	}
 
+	protected function sanitizeSentence($input)
+	{
+		$pattern = "/[ A-Za-z0-9.?!',-_()]/";
+		return implode("", preg_grep($pattern, str_split($input)));
+	}
+
 	protected function sanitizeNumbers($input)
 	{
 		$pattern = '/[0-9]/';
@@ -94,6 +112,12 @@ class Validation
 		return implode("", preg_grep($pattern, str_split($input)));
 	}
 
+	protected function sanitizeUUID($input)
+	{
+		$pattern = '/[A-Za-z0-9-]/';
+		return implode("", preg_grep($pattern, str_split($input)));
+	}
+
 	protected function sanitizeMoney($input)
 	{
 		$pattern = '/[0-9.]/';
@@ -102,7 +126,7 @@ class Validation
 
 	protected function sanitizeEmail($input)
 	{
-		$pattern = "/[A-Za-z0-9.@-]/";
+		$pattern = "/[A-Za-z0-9.@-_]/";
 		return implode("", preg_grep($pattern, str_split($input)));
 	}
 
@@ -198,11 +222,27 @@ class Validation
 		}
 	}
 
+	protected function checkVersionNumber($input)
+	{
+		$pattern = '/[^0-9.]/';
+		if (preg_match($pattern, $input)) {
+			return 'nonNumber';
+		}
+	}
+
 	protected function checkAlphanums($input)
 	{
 		$pattern = '/[^A-Za-z0-9]/';
 		if (preg_match($pattern, $input)) {
 			return 'nonAlphanum';
+		}
+	}
+
+	protected function checkUUID($input)
+	{
+		$pattern = '/[^A-Za-z0-9-]/';
+		if (preg_match($pattern, $input)) {
+			return 'nonUUID';
 		}
 	}
 
@@ -218,7 +258,15 @@ class Validation
 	{
 		$pattern = "/[^ A-Za-z.'-]/";
 		if (preg_match($pattern, $input)) {
-			return 'nonSearchName';
+			return 'nonName';
+		}
+	}
+
+	protected function checkMachineName($input)
+	{
+		$pattern = "/[^ A-Za-z0-9.,-_]/";
+		if (preg_match($pattern, $input)) {
+			return 'nonMachineName';
 		}
 	}
 
@@ -243,6 +291,14 @@ class Validation
 		$pattern = '/[^ 0-9-]/';
 		if (preg_match($pattern, $input)) {
 			return 'nonNumber';
+		}
+	}
+
+	protected function checkSentence($input)
+	{
+		$pattern = "/[^ A-Za-z0-9.?!',-_()]/";
+		if (preg_match($pattern, $input)) {
+			return 'nonSentance';
 		}
 	}
 

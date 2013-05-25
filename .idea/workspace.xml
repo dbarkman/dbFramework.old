@@ -2,48 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc4bb85a-f221-47e4-92bd-66d0131bf609" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/Curl.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/Dropdowns.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/FrameworkValidation.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/LogRequest.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/Twitter.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/UUID.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/Validation.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Twitter/oauthdamnit.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/config.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/dbConfig.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/framework.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controllers/Apigee.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controllers/FrameworkProperties.class.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controllers/Singleton.class.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Logger.class.php" afterPath="$PROJECT_DIR$/controllers/Logger.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/MySQLConnect.class.php" afterPath="$PROJECT_DIR$/controllers/MySQLConnect.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Properties.class.php" afterPath="$PROJECT_DIR$/controllers/Properties.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/SendEmail.class.php" afterPath="$PROJECT_DIR$/controllers/SendEmail.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/FrameworkValidation.class.php" afterPath="$PROJECT_DIR$/controllers/FrameworkValidation.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Twitter.class.php" afterPath="$PROJECT_DIR$/controllers/Twitter.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Validation.class.php" afterPath="$PROJECT_DIR$/controllers/Validation.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dbFramework.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1368135107950" ignored="false" />
+    <file path="/Dummy.txt" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1369251616067" ignored="false" />
     <file path="$PROJECT_DIR$/../Readey/api/index.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1365720420569" ignored="false" />
-    <file path="/index.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1365722246437" ignored="false" />
+    <file path="/index.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1369416684451" ignored="false" />
     <file path="/APIValidation.class.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1365113882179" ignored="false" />
-    <file path="/a.dummy" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1368111773825" ignored="false" />
-    <file path="/Validation.class.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1365719602573" ignored="false" />
+    <file path="/a.dummy" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1369357754580" ignored="false" />
+    <file path="/Validation.class.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1369199416543" ignored="false" />
     <file path="$PROJECT_DIR$/../ReadeyFramework/controllers/ReadeyFrameworkValidation.class.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1365115756382" ignored="false" />
     <file path="/ReadeyFrameworkValidation.class.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1365115651285" ignored="false" />
-    <file path="$PROJECT_DIR$/../ReadeyFramework/controllers/ReadeyFrameworkValidation.controller.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1365720385875" ignored="false" />
+    <file path="$PROJECT_DIR$/../ReadeyFramework/controllers/ReadeyFrameworkValidation.controller.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1369375511973" ignored="false" />
     <file path="$PROJECT_DIR$/../ReadeyFramework/controllers/Container.controller.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1365117124677" ignored="false" />
     <file path="/Container.controller.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1365117123709" ignored="false" />
-    <file path="/ReadeyFrameworkValidation.controller.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1365720383455" ignored="false" />
-    <file path="/readey.properties" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1368112149887" ignored="false" />
-    <file path="$PROJECT_DIR$/../ReadeyFramework/config/readey.properties" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1368112149887" ignored="false" />
+    <file path="/ReadeyFrameworkValidation.controller.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1369375467809" ignored="false" />
+    <file path="/readey.properties" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1369459460564" ignored="false" />
+    <file path="$PROJECT_DIR$/../ReadeyFramework/config/readey.properties" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1369459460564" ignored="false" />
     <file path="/LogRequest.class.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1365717358055" ignored="false" />
     <file path="/Dropdowns.class.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1366210586866" ignored="false" />
-    <file path="/FrameworkValidation.class.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1365720217642" ignored="false" />
-    <file path="$PROJECT_DIR$/../ReadeyAPI/index.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1365722876643" ignored="false" />
+    <file path="/FrameworkValidation.class.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1369234599725" ignored="false" />
+    <file path="$PROJECT_DIR$/../ReadeyAPI/index.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1369416766046" ignored="false" />
     <file path="$PROJECT_DIR$/../../../StormSource/PHP/Framework/framework/Client.class.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1366209803898" ignored="false" />
     <file path="$PROJECT_DIR$/../../../StormSource/PHP/Framework/html/api/Mobile/mobileAPI.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1366389036041" ignored="false" />
     <file path="$PROJECT_DIR$/../../../StormSource/PHP/Framework/framework/Dropdowns.class.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1366210751262" ignored="false" />
@@ -52,7 +35,7 @@
     <file path="$PROJECT_DIR$/../../../StormSource/PHP/Framework/html/mobileAPI.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1366315928296" ignored="false" />
     <file path="$PROJECT_DIR$/../../../StormSource/PHP/Framework/framework/Totango.class.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1366315982884" ignored="false" />
     <file path="/Totango.class.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1366315982357" ignored="false" />
-    <file path="$PROJECT_DIR$/../Earthquakes/processEarthquakes.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1368137284118" ignored="false" />
+    <file path="$PROJECT_DIR$/../Earthquakes/processEarthquakes.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1369115644019" ignored="false" />
     <file path="/processEarthquakes.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1368135817787" ignored="false" />
     <file path="$PROJECT_DIR$/../Earthquakes/config/config.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1368083420457" ignored="false" />
     <file path="$PROJECT_DIR$/../Earthquakes/Sag/Sag.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1368073879963" ignored="false" />
@@ -61,13 +44,51 @@
     <file path="/SagNativeHTTPAdapter.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1368073983056" ignored="false" />
     <file path="$PROJECT_DIR$/../Earthquakes/config/credentials.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1368079745813" ignored="false" />
     <file path="/credentials.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1368078582995" ignored="false" />
-    <file path="$PROJECT_DIR$/../Earthquakes/.idea/workspace.xml" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1368137355112" ignored="false" />
-    <file path="$PROJECT_DIR$/../ReadeyFramework/models/RSSItem.model.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1368111920575" ignored="false" />
-    <file path="/RSSItem.model.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1368111920575" ignored="false" />
-    <file path="/Twitter.class.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1368135626390" ignored="false" />
+    <file path="$PROJECT_DIR$/../Earthquakes/.idea/workspace.xml" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1368230323700" ignored="false" />
+    <file path="$PROJECT_DIR$/../ReadeyFramework/models/RSSItem.model.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1369377940557" ignored="false" />
+    <file path="/RSSItem.model.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1369370030118" ignored="false" />
+    <file path="/Twitter.class.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1369114501978" ignored="false" />
     <file path="/SendEmail.class.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1368135226351" ignored="false" />
-    <file path="$PROJECT_DIR$/../Earthquakes/controllers/USGS.controller.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1368137247177" ignored="false" />
-    <file path="/USGS.controller.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1368137245334" ignored="false" />
+    <file path="$PROJECT_DIR$/../Earthquakes/controllers/USGS.controller.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1369252367420" ignored="false" />
+    <file path="/USGS.controller.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1369252077503" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../StormSource/PHP/API-ThePrecious/Apis/ExampleApi/Configurations/MyConfig.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1368221264944" ignored="false" />
+    <file path="/WhichConfig.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1368224532963" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../StormSource/PHP/API-ThePrecious/Apis/ExampleApi/Configurations/WhichConfig.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1368220376746" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../StormSource/PHP/API-ThePrecious/Apis/ExampleApi/Website/Rest/index.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1368223146671" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../StormSource/PHP/API-ThePrecious/Apis/ExampleApi/Load.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1368223159829" ignored="false" />
+    <file path="/Load.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1368222903696" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../StormSource/PHP/API-ThePrecious/Load.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1368220610044" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../StormSource/PHP/API-ThePrecious/Classes/Framework/Core/PhpSessionManagementObj.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1368220736785" ignored="false" />
+    <file path="/PhpSessionManagementObj.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1368227515316" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../StormSource/PHP/API-ThePrecious/Classes/Api/Core/BuilderConfigObj.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1368223111907" ignored="false" />
+    <file path="/BuilderConfigObj.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1368223036582" ignored="false" />
+    <file path="/MyConfig.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1368221247939" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../StormSource/PHP/API-Precious/Apis/ExampleApi/Configurations/WhichConfig.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1368224532963" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../StormSource/PHP/API-Precious/build.xml" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1368227144143" ignored="false" />
+    <file path="/build.xml" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1368227140519" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../StormSource/PHP/API-Precious/Testing/Framework/RoomObj.test.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1368229768808" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../StormSource/PHP/API-Precious/Classes/Framework/Core/PhpSessionManagementObj.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1368227544213" ignored="false" />
+    <file path="/RoomObj.test.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1368229768808" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../StormSource/PHP/API-Precious/Classes/Framework/Core/MemcacheFactoryObj.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1368229684769" ignored="false" />
+    <file path="$PROJECT_DIR$/../Earthquakes/getTwitterUserTimeline.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1369115911310" ignored="false" />
+    <file path="/getTwitterUserTimeline.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1369115911310" ignored="false" />
+    <file path="$PROJECT_DIR$/../ReadeyAPI/.htaccess" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1369416253533" ignored="false" />
+    <file path="/.htaccess" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1369196283272" ignored="false" />
+    <file path="$PROJECT_DIR$/../ReadeyFramework/config/config.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1369176972892" ignored="false" />
+    <file path="/earthquakes.properties" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1369251622694" ignored="false" />
+    <file path="$PROJECT_DIR$/../Earthquakes/config/earthquakes.properties" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1369251622694" ignored="false" />
+    <file path="$PROJECT_DIR$/../ReadeyFramework/models/ReadLog.model.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1369419970769" ignored="false" />
+    <file path="/ReadLog.model.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1369381731092" ignored="false" />
+    <file path="$PROJECT_DIR$/../ReadeyFramework/addRSS.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1369369290744" ignored="false" />
+    <file path="/addRSS.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1369369289644" ignored="false" />
+    <file path="/RSSFeed.model.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1369373506349" ignored="false" />
+    <file path="$PROJECT_DIR$/../ReadeyFramework/models/RSSFeed.model.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1369373510633" ignored="false" />
+    <file path="$PROJECT_DIR$/../ReadeyFramework/models/RSSCategory.model.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1369410355911" ignored="false" />
+    <file path="/RSSCategory.model.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1369383440636" ignored="false" />
+    <file path="$PROJECT_DIR$/../ReadeyFramework/addCategory.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1369368393524" ignored="false" />
+    <file path="/addCategory.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1369368381517" ignored="false" />
+    <file path="$PROJECT_DIR$/../ReadeyFramework/getDateAndUuid.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1369373399367" ignored="false" />
+    <file path="/getDateAndUuid.php" changelist="bc4bb85a-f221-47e4-92bd-66d0131bf609" time="1369373179042" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,31 +108,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SendEmail.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/SendEmail.class.php">
+      <file leaf-file-name="FrameworkValidation.class.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/controllers/FrameworkValidation.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="1" selection-start="190" selection-end="190" vertical-scroll-proportion="-6.25">
+            <state line="171" column="32" selection-start="3162" selection-end="3174" vertical-scroll-proportion="0.6465517">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MySQLConnect.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/MySQLConnect.class.php">
+      <file leaf-file-name="Validation.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/Validation.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="124" selection-start="471" selection-end="471" vertical-scroll-proportion="-13.75">
+            <state line="85" column="5" selection-start="1696" selection-end="1696" vertical-scroll-proportion="-14.666667">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Twitter.class.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/controllers/Twitter.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="1" selection-start="492" selection-end="492" vertical-scroll-proportion="0.1875">
-              <folding>
-                <element signature="e#7#54#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -144,21 +154,20 @@
         <option value="$PROJECT_DIR$/controllers/MobileAPIValidation.class.php" />
         <option value="$PROJECT_DIR$/controllers/APIValidation.class.php" />
         <option value="$PROJECT_DIR$/controllers/LogRequest.class.php" />
-        <option value="$PROJECT_DIR$/controllers/Validation.class.php" />
-        <option value="$PROJECT_DIR$/controllers/FrameworkValidation.class.php" />
         <option value="$PROJECT_DIR$/controllers/Dropdowns.class.php" />
         <option value="$PROJECT_DIR$/controllers/Logger.class.php" />
         <option value="$PROJECT_DIR$/controllers/SendEmail.class.php" />
         <option value="$PROJECT_DIR$/controllers/Twitter.class.php" />
+        <option value="$PROJECT_DIR$/controllers/Validation.class.php" />
+        <option value="$PROJECT_DIR$/controllers/FrameworkValidation.class.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1080" />
-    <option name="y" value="-617" />
-    <option name="width" value="1080" />
-    <option name="height" value="1920" />
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="845" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -186,6 +195,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -238,7 +248,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -340,6 +349,9 @@
             <mapping local="$PROJECT_DIR$" />
           </mappings>
         </serverdata>
+      </server>
+      <server id="65433106-6947-4f21-93cd-30a95959ac55">
+        <serverdata />
       </server>
       <server id="925607bb-1844-4641-b98a-2e3e0335e6d0">
         <serverdata>
@@ -496,16 +508,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1080" y="-617" width="1080" height="1920" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="845" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14246576" sideWeight="0.99928313" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13903743" sideWeight="0.99928313" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21373308" sideWeight="0.8575342" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16355811" sideWeight="0.86096257" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328877" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -601,19 +613,9 @@
         <state line="31" column="21" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/UUID.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="5" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/mysql.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="148" column="9" selection-start="5421" selection-end="5421" vertical-scroll-proportion="0.33737597" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/Validation.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="200" column="37" selection-start="3835" selection-end="3849" vertical-scroll-proportion="1.6398447" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/Dropdowns.class.php">
@@ -621,59 +623,69 @@
         <state line="11" column="41" selection-start="131" selection-end="131" vertical-scroll-proportion="0.1504298" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/FrameworkValidation.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="44" selection-start="733" selection-end="733" vertical-scroll-proportion="0.1833811" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/Curl.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="15" selection-start="136" selection-end="136" vertical-scroll-proportion="0.3318584">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/Logger.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="7" selection-start="730" selection-end="730" vertical-scroll-proportion="0.27272728">
-          <folding />
-        </state>
+        <state line="14" column="15" selection-start="136" selection-end="136" vertical-scroll-proportion="0.3318584" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/LogRequest.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="35" selection-start="226" selection-end="226" vertical-scroll-proportion="0.08460237">
-          <folding />
-        </state>
+        <state line="14" column="35" selection-start="226" selection-end="226" vertical-scroll-proportion="0.08460237" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/MySQLConnect.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="124" selection-start="471" selection-end="471" vertical-scroll-proportion="-13.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/SendEmail.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="1" selection-start="190" selection-end="190" vertical-scroll-proportion="-6.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Twitter/oauthdamnit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="26" column="124" selection-start="471" selection-end="471" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/Twitter.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="1" selection-start="492" selection-end="492" vertical-scroll-proportion="0.1875">
-          <folding>
-            <element signature="e#7#54#0" expanded="true" />
-          </folding>
+        <state line="25" column="34" selection-start="559" selection-end="559" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twitter/oauthdamnit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="13" selection-start="1553" selection-end="1553" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/SendEmail.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="1" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/UUID.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="5" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/Logger.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="7" selection-start="730" selection-end="730" vertical-scroll-proportion="0.6896552">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/Validation.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="5" selection-start="1696" selection-end="1696" vertical-scroll-proportion="-14.666667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/FrameworkValidation.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="171" column="32" selection-start="3162" selection-end="3174" vertical-scroll-proportion="0.6465517">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -20,4 +20,9 @@ class Twitter
 	{
 		return $this->_twitter->post('https://api.twitter.com/1.1/statuses/update.json', $tweet);
 	}
+
+	public function getStatuses($user)
+	{
+		return $this->_twitter->get('https://api.twitter.com/1.1/statuses/user_timeline.json', $user);
+	}
 }
