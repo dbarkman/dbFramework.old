@@ -34,9 +34,44 @@ class FrameworkValidation extends Validation
 		return parent::sanitizeFloat($input);
 	}
 
+	public function sanitizeNumbers($input)
+	{
+		return parent::sanitizeNumbers($input);
+	}
+
+	public function sanitizeAlphanums($input)
+	{
+		return parent::sanitizeAlphanums($input);
+	}
+
+	public function sanitizeAlphanumsWithSpace($input)
+	{
+		return parent::sanitizeAlphanumsWithSpace($input);
+	}
+
+	public function sanitizeAlphanumsWithSpaceAndPunctuation($input)
+	{
+		return parent::sanitizeAlphanumsWithSpaceAndPunctuation($input);
+	}
+
+	public function sanitizeText($input)
+	{
+		return parent::sanitizeText($input);
+	}
+
 	public function sanitizeTextWithSpace($input)
 	{
 		return parent::sanitizeTextWithSpace($input);
+	}
+
+	public function santizieTextWithSpaceAndPunctuation($input)
+	{
+		return parent::santizieTextWithSpaceAndPunctuation($input);
+	}
+
+	public function sanitizeName($input)
+	{
+		return parent::sanitizeName($input);
 	}
 
 	public function sanitizeMachineName($input)
@@ -81,6 +116,116 @@ class FrameworkValidation extends Validation
 		return $error;
 	}
 
+	public function validateName($input)
+	{
+		$error = '';
+
+		if (parent::checkBlank($input) != null) {
+			$error = 'Blank';
+		} else {
+			if (parent::checkLength($input, 1) != null) {
+				$error = 'Short';
+			} else {
+				if (parent::checkIllegal($input) != null) {
+					$error = 'Illegal';
+				} else {
+					if (parent::checkName($input) != null) {
+						$error = 'Invalid';
+					}
+				}
+			}
+		}
+		return $error;
+	}
+
+	public function validateAlphanums($input)
+	{
+		$error = '';
+
+		if (parent::checkBlank($input) != null) {
+			$error = 'Blank';
+		} else {
+			if (parent::checkLength($input, 1) != null) {
+				$error = 'Short';
+			} else {
+				if (parent::checkIllegal($input) != null) {
+					$error = 'Illegal';
+				} else {
+					if (parent::checkAlphanums($input) != null) {
+						$error = 'Invalid';
+					}
+				}
+			}
+		}
+		return $error;
+	}
+
+	public function validateAlphanumsWithSpace($input)
+	{
+		$error = '';
+
+		if (parent::checkBlank($input) != null) {
+			$error = 'Blank';
+		} else {
+			if (parent::checkLength($input, 1) != null) {
+				$error = 'Short';
+			} else {
+				if (parent::checkIllegal($input) != null) {
+					$error = 'Illegal';
+				} else {
+					if (parent::checkAlphanumsWithSpace($input) != null) {
+						$error = 'Invalid';
+					}
+				}
+			}
+		}
+		return $error;
+	}
+
+	public function validateAlphanumsWithSpaceAndPunctuation($input)
+	{
+		$error = '';
+
+		if (parent::checkBlank($input) != null) {
+			$error = 'Blank';
+		} else {
+			if (parent::checkLength($input, 1) != null) {
+				$error = 'Short';
+			} else {
+				if (parent::checkIllegal($input) != null) {
+					$error = 'Illegal';
+				} else {
+					if (parent::checkAlphanumsWithSpaceAndPunctuation($input) != null) {
+						$error = 'Invalid';
+					}
+				}
+			}
+		}
+		return $error;
+	}
+
+	public function validateText($input)
+	{
+		$error = '';
+
+		if (parent::checkBlank($input) != null) {
+			$error = 'Blank';
+		} else {
+			if (parent::checkLength($input, 1) != null) {
+				$error = 'Short';
+			} else {
+				if (parent::checkIllegal($input) != null) {
+					$error = 'Illegal';
+				} else {
+					if (parent::checkText($input) != null) {
+						$error = 'Invalid';
+					}
+				}
+			}
+		}
+		return $error;
+	}
+
 	public function validateTextWithSpace($input)
 	{
 		$error = '';
@@ -95,6 +240,28 @@ class FrameworkValidation extends Validation
 					$error = 'Illegal';
 				} else {
 					if (parent::checkTextWithSpace($input) != null) {
+						$error = 'Invalid';
+					}
+				}
+			}
+		}
+		return $error;
+	}
+
+	public function validateTextWithSpaceAndPunctuation($input)
+	{
+		$error = '';
+
+		if (parent::checkBlank($input) != null) {
+			$error = 'Blank';
+		} else {
+			if (parent::checkLength($input, 1) != null) {
+				$error = 'Short';
+			} else {
+				if (parent::checkIllegal($input) != null) {
+					$error = 'Illegal';
+				} else {
+					if (parent::checkTextWithSpaceAndPunctuation($input) != null) {
 						$error = 'Invalid';
 					}
 				}

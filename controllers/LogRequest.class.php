@@ -19,6 +19,7 @@ class LogRequest
 		$language = $arguments['language'];
 		$httpStatus = $arguments['httpStatus'];
 		$errorCode = $arguments['errorCode'];
+		$queryTime = $arguments['queryTime'];
 		$time = $arguments['time'];
 		$size = $arguments['size'];
 		$memory = $arguments['memory'];
@@ -42,6 +43,7 @@ class LogRequest
 				language = '$language',
 				httpStatus = '$httpStatus',
 				errorCode = '$errorCode',
+				queryTime = '$queryTime',
 				time = '$time',
 				size = '$size',
 				memory = '$memory',

@@ -52,6 +52,30 @@ class Validation
 		return implode("", preg_grep($pattern, str_split($input)));
 	}
 
+	protected function sanitizeNumbers($input)
+	{
+		$pattern = '/[0-9]/';
+		return implode("", preg_grep($pattern, str_split($input)));
+	}
+
+	protected function sanitizeAlphanums($input)
+	{
+		$pattern = '/[A-Za-z0-9]/';
+		return implode("", preg_grep($pattern, str_split($input)));
+	}
+
+	protected function sanitizeAlphanumsWithSpace($input)
+	{
+		$pattern = '/[A-Za-z0-9 ]/';
+		return implode("", preg_grep($pattern, str_split($input)));
+	}
+
+	protected function sanitizeAlphanumsWithSpaceAndPunctuation($input)
+	{
+		$pattern = "/[ A-Za-z0-9.',-]/";
+		return implode("", preg_grep($pattern, str_split($input)));
+	}
+
 	protected function sanitizeText($input)
 	{
 		$pattern = "/[A-Za-z]/";
@@ -61,6 +85,12 @@ class Validation
 	protected function sanitizeTextWithSpace($input)
 	{
 		$pattern = "/[A-Za-z ]/";
+		return implode("", preg_grep($pattern, str_split($input)));
+	}
+
+	protected function santizieTextWithSpaceAndPunctuation($input)
+	{
+		$pattern = "/[ A-Za-z.',-]/";
 		return implode("", preg_grep($pattern, str_split($input)));
 	}
 
@@ -100,18 +130,6 @@ class Validation
 		return implode("", preg_grep($pattern, str_split($input)));
 	}
 
-	protected function sanitizeNumbers($input)
-	{
-		$pattern = '/[0-9]/';
-		return implode("", preg_grep($pattern, str_split($input)));
-	}
-
-	protected function sanitizeAlphanums($input)
-	{
-		$pattern = '/[A-Za-z0-9]/';
-		return implode("", preg_grep($pattern, str_split($input)));
-	}
-
 	protected function sanitizeUUID($input)
 	{
 		$pattern = '/[A-Za-z0-9-]/';
@@ -144,6 +162,14 @@ class Validation
 		}
 	}
 
+	protected function checkTrailingComma($input)
+	{
+		$pattern = "/,$/";
+		if (preg_match($pattern, $input)) {
+			return 'trailingComma';
+		}
+	}
+
     protected function checkDate($date)
     {
         if(!strtotime($date))
@@ -169,21 +195,6 @@ class Validation
 		}
 	}
 
-	protected function checkTrailingComma($input)
-	{
-		$pattern = "/,$/";
-		if (preg_match($pattern, $input)) {
-			return 'trailingComma';
-		}
-	}
-
-	protected function checkNumeric($input)
-	{
-		if (!ctype_digit($input)) {
-			return 'nonNumber';
-		}
-	}
-
 	protected function checkIntegerNoPattern($input)
 	{
 		if ($input != strval(intval($input))) {
@@ -195,6 +206,45 @@ class Validation
 	{
 		if ($input != strval(floatval($input))) {
 			return 'nonFloat';
+		}
+	}
+
+	protected function checkNumber($input)
+	{
+		$pattern = '/[^0-9]/';
+		if (preg_match($pattern, $input)) {
+			return 'nonNumber';
+		}
+	}
+
+	protected function checkNumeric($input)
+	{
+		if (!ctype_digit($input)) {
+			return 'nonNumber';
+		}
+	}
+
+	protected function checkAlphanums($input)
+	{
+		$pattern = '/[^A-Za-z0-9]/';
+		if (preg_match($pattern, $input)) {
+			return 'nonAlphanum';
+		}
+	}
+
+	protected function checkAlphanumsWithSpace($input)
+	{
+		$pattern = '/[^A-Za-z0-9 ]/';
+		if (preg_match($pattern, $input)) {
+			return 'nonAlphanum';
+		}
+	}
+
+	protected function checkAlphanumsWithSpaceAndPunctuation($input)
+	{
+		$pattern = "/[^A-Za-z0-9.',- ]/";
+		if (preg_match($pattern, $input)) {
+			return 'nonAlphanum';
 		}
 	}
 
@@ -214,11 +264,11 @@ class Validation
 		}
 	}
 
-	protected function checkNumber($input)
+	protected function checkTextWithSpaceAndPunctuation($input)
 	{
-		$pattern = '/[^0-9]/';
+		$pattern = "/[^A-Za-z.',- ]/";
 		if (preg_match($pattern, $input)) {
-			return 'nonNumber';
+			return 'nonText';
 		}
 	}
 
@@ -227,14 +277,6 @@ class Validation
 		$pattern = '/[^0-9.]/';
 		if (preg_match($pattern, $input)) {
 			return 'nonNumber';
-		}
-	}
-
-	protected function checkAlphanums($input)
-	{
-		$pattern = '/[^A-Za-z0-9]/';
-		if (preg_match($pattern, $input)) {
-			return 'nonAlphanum';
 		}
 	}
 

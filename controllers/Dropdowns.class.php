@@ -9,7 +9,8 @@
 class Dropdowns
 {
 	public $apiKeys = array(
-		'42m24fbJtEnAC6vXoVy8Yjz9U79dhZ3u'
+		'42m24fbJtEnAC6vXoVy8Yjz9U79dhZ3u',
+		'd9yBcTVkA44tNauP7C68eD62fbEZz73L'
 	);
 
 	public $responseType = array(
