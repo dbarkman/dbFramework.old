@@ -65,15 +65,18 @@ class Logger
 
 	private function log($level, $message)
 	{
-		if ($level >= $this->logLevel) {
-			$log = $this->logPath . DIRECTORY_SEPARATOR . $this->logFile;
-			$trace = debug_backtrace();
-			$file = explode('/', $trace[1]['file']);
-			$file = array_pop($file);
-			$now = date("m/d/Y H:i:s", time());
-			$msg = sprintf("%-14s | %-5s - %s", $now, self::$levels[$level], session_id() . " - (" . $file . ") - " . $message);
-//			echo $log . '<br />';
-			file_put_contents($log, "$msg\n", FILE_APPEND);
+		try {
+			if ($level >= $this->logLevel) {
+				$log = $this->logPath . DIRECTORY_SEPARATOR . $this->logFile;
+				$trace = debug_backtrace();
+				$file = explode('/', $trace[1]['file']);
+				$file = array_pop($file);
+				$now = date("m/d/Y H:i:s", time());
+				$msg = sprintf("%-14s | %-5s - %s", $now, self::$levels[$level], session_id() . " - (" . $file . ") - " . $message);
+				file_put_contents($log, "$msg\n", FILE_APPEND);
+			}
+		} catch (Exception $e) {
+			//could not create a log entry
 		}
 	}
 

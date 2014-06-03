@@ -127,15 +127,12 @@ class OAuthDamnit extends OAuthDamnitBase {
 			curl_setopt ($this->ch, CURLOPT_URL, $url . $append . $data);
 		}
 		$response = curl_exec($this->ch);
-		if (!curl_errno($this->ch)) {
-			$info = curl_getinfo($this->ch);
-			if ($info['http_code'] != 200) {
-				return false;
-			}
-		} else {
-			return false;
-		}
-		return $response;
+		$responseObject = json_decode($response, true);
+		$curlErrno = curl_errno($this->ch);
+		$curlInfo = curl_getinfo($this->ch);
+		$responseObject['curlErrno'] = $curlErrno;
+		$responseObject['curlInfo'] = $curlInfo;
+		return json_encode($responseObject);
 	}
 
 }
