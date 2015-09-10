@@ -26,7 +26,8 @@ class MongoDBConnect
 		$this->_collectionName = $collectionName;
 
 		try {
-			$this->_connection = new MongoClient("mongodb://$this->_username:$this->_password@$this->_server/$this->_databaseName");
+//			$this->_connection = new MongoClient("mongodb://$this->_username:$this->_password@$this->_server/$this->_databaseName");
+			$this->_connection = new MongoClient("mongodb://$this->_server/$this->_databaseName");
 			$this->_database = $this->_connection->$databaseName;
 			$this->_collection = $this->_database->$collectionName;
 		} catch (MongoConnectionException $e) {
@@ -46,7 +47,8 @@ class MongoDBConnect
 		$this->_databaseName = $database;
 
 		try {
-			$this->_connection = new MongoClient("mongodb://$this->_username:$this->_password@$this->_server/$this->_databaseName");
+//			$this->_connection = new MongoClient("mongodb://$this->_username:$this->_password@$this->_server/$this->_databaseName");
+			$this->_connection = new MongoClient("mongodb://$this->_server/$this->_databaseName");
 		} catch (MongoConnectionException $e) {
 			die('Error connecting to MongoDB server: ' . $e->getMessage());
 		} catch (MongoException $e) {
