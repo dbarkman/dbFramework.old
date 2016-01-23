@@ -1,0 +1,88 @@
+01/22/2016 21:30:40 | ERROR - jn83ecqc4ah8n150l143c9lvq6 - (processEarthquakes.php) - Twitter post  (every) failed again for earthquake: hv61158931 - Twitter error: 403
+01/22/2016 21:30:40 | ERROR - jn83ecqc4ah8n150l143c9lvq6 - (processEarthquakes.php) - Twitter post  (every) failed again for earthquake: nc72583396 - Twitter error: 403
+01/22/2016 21:30:40 | ERROR - jn83ecqc4ah8n150l143c9lvq6 - (processEarthquakes.php) - Twitter post  (norCal) failed again for earthquake: nc72583396 - Twitter error: 403
+01/22/2016 21:30:41 | ERROR - jn83ecqc4ah8n150l143c9lvq6 - (processEarthquakes.php) - Twitter post  (every) failed again for earthquake: ci37298847 - Twitter error: 403
+01/22/2016 21:30:41 | ERROR - jn83ecqc4ah8n150l143c9lvq6 - (processEarthquakes.php) - Twitter post  (soCal) failed again for earthquake: ci37298847 - Twitter error: 403
+01/22/2016 21:30:41 | ERROR - jn83ecqc4ah8n150l143c9lvq6 - (processEarthquakes.php) - Twitter post  (every) failed again for earthquake: nc72583391 - Twitter error: 403
+01/22/2016 21:30:42 | ERROR - jn83ecqc4ah8n150l143c9lvq6 - (processEarthquakes.php) - Twitter post  (soCal) failed again for earthquake: nc72583391 - Twitter error: 403
+01/22/2016 21:49:25 | DEBUG - ml3uha0811ib234ldadlp0eb10 - (processEarthquakes.php) - Checking for earthquakes!
+01/22/2016 21:49:25 | DEBUG - ml3uha0811ib234ldadlp0eb10 - (USGS.controller.php) - USGS URL: http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson
+01/22/2016 21:49:26 | DEBUG - ml3uha0811ib234ldadlp0eb10 - (processEarthquakes.php) - Duplicate earthquake
+01/22/2016 21:49:26 | DEBUG - ml3uha0811ib234ldadlp0eb10 - (processEarthquakes.php) - Duplicate earthquake
+01/22/2016 21:49:26 | DEBUG - ml3uha0811ib234ldadlp0eb10 - (processEarthquakes.php) - Duplicate earthquake
+01/22/2016 21:49:26 | DEBUG - ml3uha0811ib234ldadlp0eb10 - (processEarthquakes.php) - 4 new earthquakes added and reported.
+01/22/2016 21:50:48 | DEBUG - dhutnvl8ud1stdkh8f8lpue8u3 - (processEarthquakes.php) - Checking for earthquakes!
+01/22/2016 21:50:48 | DEBUG - dhutnvl8ud1stdkh8f8lpue8u3 - (USGS.controller.php) - USGS URL: http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson
+01/22/2016 21:50:49 | DEBUG - dhutnvl8ud1stdkh8f8lpue8u3 - (processEarthquakes.php) - 8 new earthquakes added and reported.
+01/22/2016 21:51:29 | DEBUG - k6p0a4lpr12rm7024ufgo68541 - (processEarthquakes.php) - Checking for earthquakes!
+01/22/2016 21:51:29 | DEBUG - k6p0a4lpr12rm7024ufgo68541 - (USGS.controller.php) - USGS URL: http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson
+01/22/2016 21:51:29 | DEBUG - k6p0a4lpr12rm7024ufgo68541 - (processEarthquakes.php) - 8 new earthquakes added and reported.
+01/22/2016 21:53:53 | DEBUG - e8tfrm7td8m3utmtctmf5vtsr4 - (processEarthquakes.php) - Checking for earthquakes!
+01/22/2016 21:53:53 | DEBUG - e8tfrm7td8m3utmtctmf5vtsr4 - (USGS.controller.php) - USGS URL: http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson
+01/22/2016 21:53:53 | DEBUG - e8tfrm7td8m3utmtctmf5vtsr4 - (processEarthquakes.php) - Earthquake added: uw61104442
+01/22/2016 21:53:53 | DEBUG - e8tfrm7td8m3utmtctmf5vtsr4 - (processEarthquakes.php) - Earthquake added: nn00528007
+01/22/2016 21:53:53 | DEBUG - e8tfrm7td8m3utmtctmf5vtsr4 - (processEarthquakes.php) - Earthquake added: uw61104437
+01/22/2016 21:53:53 | DEBUG - e8tfrm7td8m3utmtctmf5vtsr4 - (processEarthquakes.php) - Earthquake added: nc72583406
+01/22/2016 21:53:53 | DEBUG - e8tfrm7td8m3utmtctmf5vtsr4 - (processEarthquakes.php) - Earthquake added: hv61158931
+01/22/2016 21:53:53 | DEBUG - e8tfrm7td8m3utmtctmf5vtsr4 - (processEarthquakes.php) - Earthquake added: nc72583396
+01/22/2016 21:53:53 | DEBUG - e8tfrm7td8m3utmtctmf5vtsr4 - (processEarthquakes.php) - Earthquake added: uu60136692
+01/22/2016 21:53:53 | DEBUG - e8tfrm7td8m3utmtctmf5vtsr4 - (processEarthquakes.php) - 7 new earthquakes added and reported.
+01/22/2016 21:54:34 | DEBUG - 8vsc4lp9ar1g25a43hul51dbl0 - (processEarthquakes.php) - Checking for earthquakes!
+01/22/2016 21:54:34 | DEBUG - 8vsc4lp9ar1g25a43hul51dbl0 - (USGS.controller.php) - USGS URL: http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson
+01/22/2016 21:54:34 | DEBUG - 8vsc4lp9ar1g25a43hul51dbl0 - (processEarthquakes.php) - Duplicate earthquake
+01/22/2016 21:54:34 | DEBUG - 8vsc4lp9ar1g25a43hul51dbl0 - (processEarthquakes.php) - Earthquake added: nn00528007
+01/22/2016 21:54:34 | DEBUG - 8vsc4lp9ar1g25a43hul51dbl0 - (processEarthquakes.php) - Duplicate earthquake
+01/22/2016 21:54:34 | DEBUG - 8vsc4lp9ar1g25a43hul51dbl0 - (processEarthquakes.php) - Duplicate earthquake
+01/22/2016 21:54:34 | DEBUG - 8vsc4lp9ar1g25a43hul51dbl0 - (processEarthquakes.php) - Duplicate earthquake
+01/22/2016 21:54:34 | DEBUG - 8vsc4lp9ar1g25a43hul51dbl0 - (processEarthquakes.php) - Duplicate earthquake
+01/22/2016 21:54:34 | DEBUG - 8vsc4lp9ar1g25a43hul51dbl0 - (processEarthquakes.php) - Duplicate earthquake
+01/22/2016 21:54:34 | DEBUG - 8vsc4lp9ar1g25a43hul51dbl0 - (processEarthquakes.php) - 1 new earthquake added and reported.
+01/22/2016 21:55:58 | DEBUG - b2pgj6ju3nlgso034ie0rqlqo1 - (processEarthquakes.php) - Checking for earthquakes!
+01/22/2016 21:55:58 | DEBUG - b2pgj6ju3nlgso034ie0rqlqo1 - (USGS.controller.php) - USGS URL: http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson
+01/22/2016 21:55:58 | DEBUG - b2pgj6ju3nlgso034ie0rqlqo1 - (processEarthquakes.php) - Duplicate earthquake
+01/22/2016 21:55:58 | DEBUG - b2pgj6ju3nlgso034ie0rqlqo1 - (processEarthquakes.php) - Earthquake added: nn00528007
+01/22/2016 21:55:59 | DEBUG - b2pgj6ju3nlgso034ie0rqlqo1 - (processEarthquakes.php) - Duplicate earthquake
+01/22/2016 21:55:59 | DEBUG - b2pgj6ju3nlgso034ie0rqlqo1 - (processEarthquakes.php) - Duplicate earthquake
+01/22/2016 21:55:59 | DEBUG - b2pgj6ju3nlgso034ie0rqlqo1 - (processEarthquakes.php) - Duplicate earthquake
+01/22/2016 21:55:59 | DEBUG - b2pgj6ju3nlgso034ie0rqlqo1 - (processEarthquakes.php) - Duplicate earthquake
+01/22/2016 21:55:59 | DEBUG - b2pgj6ju3nlgso034ie0rqlqo1 - (processEarthquakes.php) - Duplicate earthquake
+01/22/2016 21:55:59 | DEBUG - b2pgj6ju3nlgso034ie0rqlqo1 - (processEarthquakes.php) - 1 new earthquake added and reported.
+01/22/2016 21:56:19 | DEBUG - nnmlh3kmd4vvmuujqml412js55 - (processEarthquakes.php) - Checking for earthquakes!
+01/22/2016 21:56:19 | DEBUG - nnmlh3kmd4vvmuujqml412js55 - (USGS.controller.php) - USGS URL: http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson
+01/22/2016 21:56:20 | DEBUG - nnmlh3kmd4vvmuujqml412js55 - (processEarthquakes.php) - Duplicate earthquake
+01/22/2016 21:56:20 | DEBUG - nnmlh3kmd4vvmuujqml412js55 - (processEarthquakes.php) - Duplicate earthquake
+01/22/2016 21:56:20 | DEBUG - nnmlh3kmd4vvmuujqml412js55 - (processEarthquakes.php) - Duplicate earthquake
+01/22/2016 21:56:20 | DEBUG - nnmlh3kmd4vvmuujqml412js55 - (processEarthquakes.php) - Duplicate earthquake
+01/22/2016 21:56:20 | DEBUG - nnmlh3kmd4vvmuujqml412js55 - (processEarthquakes.php) - Duplicate earthquake
+01/22/2016 21:56:20 | DEBUG - nnmlh3kmd4vvmuujqml412js55 - (processEarthquakes.php) - Duplicate earthquake
+01/22/2016 21:56:20 | DEBUG - nnmlh3kmd4vvmuujqml412js55 - (processEarthquakes.php) - Duplicate earthquake
+01/22/2016 22:28:07 | DEBUG - tjunqq5gikmvvh5e3c2fad0rd6 - (processEarthquakes.php) - Checking for earthquakes!
+01/22/2016 22:28:07 | DEBUG - tjunqq5gikmvvh5e3c2fad0rd6 - (USGS.controller.php) - USGS URL: http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson
+01/22/2016 22:28:07 | DEBUG - tjunqq5gikmvvh5e3c2fad0rd6 - (processEarthquakes.php) - Earthquake added: nn00528013
+01/22/2016 22:28:07 | DEBUG - tjunqq5gikmvvh5e3c2fad0rd6 - (processEarthquakes.php) - Earthquake added: nn00528008
+01/22/2016 22:28:07 | DEBUG - tjunqq5gikmvvh5e3c2fad0rd6 - (processEarthquakes.php) - Duplicate earthquake
+01/22/2016 22:28:07 | DEBUG - tjunqq5gikmvvh5e3c2fad0rd6 - (processEarthquakes.php) - Duplicate earthquake
+01/22/2016 22:28:07 | DEBUG - tjunqq5gikmvvh5e3c2fad0rd6 - (processEarthquakes.php) - Duplicate earthquake
+01/22/2016 22:28:07 | DEBUG - tjunqq5gikmvvh5e3c2fad0rd6 - (processEarthquakes.php) - 2 new earthquakes added and reported.
+01/22/2016 23:07:51 | DEBUG - s1q3e5b4h71fcoakv0rbobcu15 - (processEarthquakes.php) - Checking for earthquakes!
+01/22/2016 23:07:51 | DEBUG - s1q3e5b4h71fcoakv0rbobcu15 - (USGS.controller.php) - USGS URL: http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson
+01/22/2016 23:07:52 | DEBUG - s1q3e5b4h71fcoakv0rbobcu15 - (processEarthquakes.php) - Earthquake added: nc72583446
+01/22/2016 23:07:52 | DEBUG - s1q3e5b4h71fcoakv0rbobcu15 - (processEarthquakes.php) - Earthquake added: nc72583441
+01/22/2016 23:07:52 | DEBUG - s1q3e5b4h71fcoakv0rbobcu15 - (processEarthquakes.php) - Earthquake added: ci37298871
+01/22/2016 23:07:52 | DEBUG - s1q3e5b4h71fcoakv0rbobcu15 - (processEarthquakes.php) - Earthquake added: nc72583436
+01/22/2016 23:07:52 | DEBUG - s1q3e5b4h71fcoakv0rbobcu15 - (processEarthquakes.php) - Earthquake added: nc72583431
+01/22/2016 23:07:52 | DEBUG - s1q3e5b4h71fcoakv0rbobcu15 - (processEarthquakes.php) - Earthquake added: ci37298855
+01/22/2016 23:07:52 | DEBUG - s1q3e5b4h71fcoakv0rbobcu15 - (processEarthquakes.php) - Earthquake added: nn00528018
+01/22/2016 23:07:52 | DEBUG - s1q3e5b4h71fcoakv0rbobcu15 - (processEarthquakes.php) - Earthquake added: ak12487631
+01/22/2016 23:07:52 | DEBUG - s1q3e5b4h71fcoakv0rbobcu15 - (processEarthquakes.php) - Earthquake added: nn00528017
+01/22/2016 23:07:52 | DEBUG - s1q3e5b4h71fcoakv0rbobcu15 - (processEarthquakes.php) - 9 new earthquakes added and reported.
+01/23/2016 01:20:05 | DEBUG - dunmomvs2ckijv1375m4rucir2 - (processEarthquakes.php) - Checking for earthquakes!
+01/23/2016 01:20:05 | DEBUG - dunmomvs2ckijv1375m4rucir2 - (USGS.controller.php) - USGS URL: http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson
+01/23/2016 01:20:06 | DEBUG - dunmomvs2ckijv1375m4rucir2 - (processEarthquakes.php) - Earthquake added: nn00528049
+01/23/2016 01:20:06 | DEBUG - dunmomvs2ckijv1375m4rucir2 - (processEarthquakes.php) - Earthquake added: nc72583506
+01/23/2016 01:20:06 | DEBUG - dunmomvs2ckijv1375m4rucir2 - (processEarthquakes.php) - Earthquake added: nc72583501
+01/23/2016 01:20:06 | DEBUG - dunmomvs2ckijv1375m4rucir2 - (processEarthquakes.php) - Earthquake added: nc72583496
+01/23/2016 01:20:06 | DEBUG - dunmomvs2ckijv1375m4rucir2 - (processEarthquakes.php) - Earthquake added: nn00528043
+01/23/2016 01:20:06 | DEBUG - dunmomvs2ckijv1375m4rucir2 - (processEarthquakes.php) - Earthquake added: nn00528042
+01/23/2016 01:20:06 | DEBUG - dunmomvs2ckijv1375m4rucir2 - (processEarthquakes.php) - Earthquake added: nn00528047
+01/23/2016 01:20:06 | DEBUG - dunmomvs2ckijv1375m4rucir2 - (processEarthquakes.php) - 7 new earthquakes added and reported.
